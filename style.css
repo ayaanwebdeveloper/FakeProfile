@@ -1,0 +1,32 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #157474;
+    overflow: hidden;
+}
+.box{
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: #1F8F68;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+.so{
+    font-size: 56px;
+    
+}
+.in{
+    border-radius: 20px;
+    transition: 0.4s;
+}
+.in:hover{
+    border-radius: 50%;
+    transform: scale(1.05);
+}
